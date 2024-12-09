@@ -2,8 +2,8 @@ name = "nautica"
 main = "worker.js"
 compatibility_date = "2023-08-23"
 
-[unsafe.metadata.observability]
-enabled = true
-
 [observability.logs]
 enabled = true
+
+[vars]
+PROXY_BANK_URL = "https://gist.githubusercontent.com/doncax/51b3c6b17542f7fbfc73189b1273afb3/raw/9ccb621bae7b0d5dcf15550edc65eae07e2f51fe/proxyList.txt"
